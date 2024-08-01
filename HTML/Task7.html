@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<style>
+    h2 {
+        color: skyblue;
+        margin: auto;
+        padding: 10px;
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-weight: 50;
+    }
+
+    p {
+        font-size: 18px;
+        color: #7c807f;
+        padding: 10px 20px 20px 20px;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    body {
+        background-color: #38e0cd;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        height: 100vh;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .center {
+        background-color: whitesmoke;
+        width: 300px;
+        height: 450px;
+        padding: 11px 10px 30px 10px;
+        margin: auto;
+
+    }
+
+    .user {
+        padding: 10px;
+        margin-left: 20px;
+        width: 75%;
+        border: 1px solid #aaadad;
+    }
+
+    .pass {
+        border: 1px solid #aaadad;
+        padding: 10px;
+        margin-left: 20px;
+        width: 75%;
+
+    }
+
+    button {
+        text-align: center;
+        width: 108%;
+        padding: 15px 30px;
+        margin: -12px;
+        font-size: 20px;
+        color: white;
+        background-color: #32997f;
+        /*     background-color: rgb(144, 238, 210); */
+        border: none;
+        display: inline;
+    }
+</style>
+
+<body>
+    <div class="center">
+        <h2>Login</h2>
+        <hr width=103%;>
+        <input class="user" type="text" name="Username" placeholder="Username" required><br>
+        <br>
+        <input class="user" type="text" name="age" id="age" placeholder="enter age" required /><br></br>
+
+        <input class="user" type="text" name="Designation" id="Designation" placeholder="enter Designation"
+            required /><br></br>
+        <input class="user" type="text" name="Email" id="Email" placeholder="enter email"required /><br></br>
+        <input class="pass" type="text" name="Password" placeholder="Password" required><br><br>
+        <label style="color:#aaadad;margin-left:14%">Date Of Birth:</label><br><br>
+        <input class="user" type="date" name="date" placeholder="date" required><br>
+        <br>
+        <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
